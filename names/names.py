@@ -12,6 +12,8 @@ f.close()
 
 duplicates = []  # Return the list of duplicates in this data structure
 
+# because this is a nested loop, the time complexity of this code is O(n^2)  (O of n squared)
+
 # Replace the nested for loops below with your improvements
 for name_1 in names_1:
     for name_2 in names_2:
